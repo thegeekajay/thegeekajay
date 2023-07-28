@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Personify Personal/VCard Website Template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="I am a highly skilled and experienced full stack developer with a passion for building innovative web applications.">
+    <meta name="keywords" content="full stack developer, software engineer, web development, java, javascript, python, react, angular, spring boot">
+    <meta name="author" content="Nimmikrishna Babu">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Playfair+Display:,300, 400, 700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script nonce="1f8ca05c-0223-42fd-ac07-bc7db805a2dc">
+        (function(w, d) {
+            ! function(bt, bu, bv, bw) {
+                bt[bv] = bt[bv] || {};
+                bt[bv].executed = [];
+                bt.zaraz = {
+                    deferred: [],
+                    listeners: []
+                };
+                bt.zaraz.q = [];
+                bt.zaraz._f = function(bx) {
+                    return function() {
+                        var by = Array.prototype.slice.call(arguments);
+                        bt.zaraz.q.push({
+                            m: bx,
+                            a: by
+                        })
+                    }
+                };
+                for (const bz of ["track", "set", "debug"]) bt.zaraz[bz] = bt.zaraz._f(bz);
+                bt.zaraz.init = () => {
+                    var bA = bu.getElementsByTagName(bw)[0],
+                        bB = bu.createElement(bw),
+                        bC = bu.getElementsByTagName("title")[0];
+                    bC && (bt[bv].t = bu.getElementsByTagName("title")[0].text);
+                    bt[bv].x = Math.random();
+                    bt[bv].w = bt.screen.width;
+                    bt[bv].h = bt.screen.height;
+                    bt[bv].j = bt.innerHeight;
+                    bt[bv].e = bt.innerWidth;
+                    bt[bv].l = bt.location.href;
+                    bt[bv].r = bu.referrer;
+                    bt[bv].k = bt.screen.colorDepth;
+                    bt[bv].n = bu.characterSet;
+                    bt[bv].o = (new Date).getTimezoneOffset();
+                    if (bt.dataLayer)
+                        for (const bG of Object.entries(Object.entries(dataLayer).reduce(((bH, bI) => ({ ...bH[1],
+                                ...bI[1]
+                            })), {}))) zaraz.set(bG[0], bG[1], {
+                            scope: "page"
+                        });
+                    bt[bv].q = [];
+                    for (; bt.zaraz.q.length;) {
+                        const bJ = bt.zaraz.q.shift();
+                        bt[bv].q.push(bJ)
+                    }
+                    bB.defer = !0;
+                    for (const bK of [localStorage, sessionStorage]) Object.keys(bK || {}).filter((bM => bM.startsWith("_zaraz_"))).forEach((bL => {
+                        try {
+                            bt[bv]["z_" + bL.slice(7)] = JSON.parse(bK.getItem(bL))
+                        } catch {
+                            bt[bv]["z_" + bL.slice(7)] = bK.getItem(bL)
+                        }
+                    }));
+                    bB.referrerPolicy = "origin";
+                    bB.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(bt[bv])));
+                    bA.parentNode.insertBefore(bB, bA)
+                };
+                ["complete", "interactive"].includes(bu.readyState) ? zaraz.init() : bt.addEventListener("DOMContentLoaded", zaraz.init)
+            }(w, d, "zarazData", "script");
+        })(window, document);
+    </script>
+</head>
+
+<body>
+    <div class="site-wrap">
+        <a href="#" class="offcanvas-toggle js-offcanvas-toggle">Menu</a>
+        <div class="offcanvas_menu" id="offcanvas_menu">
+            <ul class="mb-5">
+                <li><a href="index.html">Bio</a></li>
+                <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+                <li class="active"><a href="resume.html">Resume</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
+            </ul>
+            <ul class="social">
+                <li><a href="https://github.com/Nimmikrishna" class="fa fa-github"></a></li>
+                <li><a href="https://www.linkedin.com/in/nimmikrishnab/" class="fa fa-facebook"></a></li>
+                <li><a href="https://www.instagram.com/krishnab_29/" class="fa fa-instagram"></a></li>
+            </ul>
+            </br>
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+
+        </div>
+        <aside style="background-image: url(img/profile_big1.jpg);"></aside>
+        <main>
+            <div class="mb-5" style="display: flex;justify-content: space-between;">
+                <a href="index.html" class="fa fa-home" style="font-size: 20px;"></a>
+                <a href="Nimmikrishna_Babu_Resume.pdf" target="_blank" class="fa fa-download" >Resume</a>
+              </div>
+            <h1 class="mb-5">Experience</h1>
+            <div class="mb-5">
+                <ul class="resume-list">
+                    <li>
+                        <h3>Solution Engineer, Nokia Networks and Solutions</h3>
+                        <p class="date">June 2018 - Nov 2021</p>
+                        <p>
+                            <ul>
+                                <li style="display: list-item;list-style: square;">Led the installation and configuration of OpenStack-based Virtualized Network Functions (VNFs) such as DNS, MNP, ENUM, and Utproxy, resulting in the successful implementation of an end-to-end telecom network.</li>
+                                <li style="display: list-item;list-style: square;">Executed user acceptance and integration testing within the specified timeframe, ensuring seamless integration of the VNFs into the existing infrastructure.</li>
+                                <li style="display: list-item;list-style: square;">Analyzed logs meticulously, promptly identifying recurring issues and effectively coordinating troubleshooting activities to minimize downtime and optimize system performance.</li>
+                                <li style="display: list-item;list-style: square;">Leveraged Wireshark, a powerful network analysis tool, to diagnose and resolve complex network issues, thereby enhancing network stability and reliability.</li>
+                                <li style="display: list-item;list-style: square;">Fostered strong collaboration with clients, actively engaging them to define and review solution requirements. Successfully exceeded client expectations by planning and implementing solutions that addressed their specific needs.</li>
+                                <li style="display: list-item;list-style: square;">Demonstrated exceptional reliability by designing network components capable of handling disaster recovery scenarios, resulting in a remarkable 99% uptime for the telecom network.</li>
+                            </ul>
+                            
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="mb-5">Education</h1>
+            <div class="mb-5">
+                <ul class="resume-list">
+                    <li>
+                        <h3>Stevens Institute of Technology, Hoboken, NJ</h3>
+                        <p style='margin-bottom: 0px;font-weight: 500;font-family: "Playfair Display", times, serif;font-size: larger;'>Master of Science in Computer Science</p>
+                        <p class="date">December 2023</p>
+                        <p>Related Courses: Data Structures and Algorithms, Introduction to JAVA, Engineering Python, Database Management Systems, Object Oriented Design and Analysis, Web Programming, Web Mining, Fundamentals of Cybersecurity.</p>
+                    </li>
+                    <li>
+                        <h3>National Institute of Technology, India</h3>
+                        <p style='margin-bottom: 0px;font-weight: 500;font-family: "Playfair Display", times, serif;font-size: larger;'>Bachelor of Technology in Electronics and Communication</p>
+                        <p class="date">May 2018</p>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214" /></svg></div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []; 
+        function gtag() {
+            dataLayer.push(arguments);
+        } 
+        gtag('js', new Date());
+
+         
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon='{"rayId":"7edf5f3af9a73ab6","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.7.0","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
